@@ -100,11 +100,11 @@ Modalité de paiement
             </div>
             
             <Button variant="hero" size="lg" className="w-full mt-6 text-lg">
-              Prenota il Tuo Posto
+              Réservez votre place ici 
             </Button>
             
             <p className="text-center text-sm text-vintage-earth/60 mt-4">
-              Garanzia soddisfatti o rimborsati entro 7 giorni
+              premier cours d’essai le 16 octobre offert
             </p>
           </Card>
         </div>
