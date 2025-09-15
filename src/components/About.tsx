@@ -1,38 +1,28 @@
 import { Card } from "@/components/ui/card";
 import { Star, Award, BookOpen, Heart } from "lucide-react";
-
 const About = () => {
-  const achievements = [
-    {
-      icon: Star,
-      number: "15+",
-      label: "Anni di Esperienza"
-    },
-    {
-      icon: BookOpen,
-      number: "500+",
-      label: "Studenti Formati"
-    },
-    {
-      icon: Award,
-      number: "3",
-      label: "Certificazioni Internazionali"
-    },
-    {
-      icon: Heart,
-      number: "1000+",
-      label: "Consulenze Realizzate"
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-vintage-cream">
+  const achievements = [{
+    icon: Star,
+    number: "15+",
+    label: "Anni di Esperienza"
+  }, {
+    icon: BookOpen,
+    number: "500+",
+    label: "Studenti Formati"
+  }, {
+    icon: Award,
+    number: "3",
+    label: "Certificazioni Internazionali"
+  }, {
+    icon: Heart,
+    number: "1000+",
+    label: "Consulenze Realizzate"
+  }];
+  return <section className="py-20 bg-vintage-cream">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-              Chi Sono
-            </h2>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
             <div className="space-y-6 text-vintage-earth/80 leading-relaxed">
               <p className="text-lg">
                 Sono <strong className="text-vintage-earth">Sofia Celeste</strong>, astrologa professionista 
@@ -70,8 +60,7 @@ const About = () => {
                 I Miei Risultati
               </h3>
               <div className="grid grid-cols-2 gap-6">
-                {achievements.map((achievement, index) => (
-                  <div key={index} className="text-center">
+                {achievements.map((achievement, index) => <div key={index} className="text-center">
                     <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-accent rounded-full mb-3">
                       <achievement.icon size={24} className="text-vintage-earth" />
                     </div>
@@ -81,8 +70,7 @@ const About = () => {
                     <div className="text-sm text-vintage-earth/70">
                       {achievement.label}
                     </div>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </Card>
 
@@ -112,8 +100,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
