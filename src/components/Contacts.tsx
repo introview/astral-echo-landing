@@ -45,7 +45,7 @@ const Contacts = () => {
             className="flex items-center gap-3 px-8 py-4 text-lg"
             asChild
           >
-            <a href="tel:3303030303">
+            <a href="tel:0769311287">
               <Phone size={24} />
               Telefonami
             </a>
