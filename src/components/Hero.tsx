@@ -55,22 +55,7 @@ const Hero = () => {
 Contactez l’enseignant          </Button>
         </div>
         
-        <div className="mt-16 flex items-center justify-center gap-8 text-vintage-earth/60">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-vintage-gold">12</div>
-            <div className="text-sm">Settimane</div>
-          </div>
-          <div className="w-px h-8 bg-vintage-earth/20"></div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-vintage-gold">24</div>
-            <div className="text-sm">Lezioni</div>
-          </div>
-          <div className="w-px h-8 bg-vintage-earth/20"></div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-vintage-gold">100+</div>
-            <div className="text-sm">Studenti</div>
-          </div>
-        </div>
+       
       </div>
     </section>
   );
