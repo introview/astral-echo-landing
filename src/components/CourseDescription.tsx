@@ -30,13 +30,12 @@ const CourseDescription = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-            Un Viaggio attraverso
-            <span className="block text-vintage-gold">l'Antica Saggezza</span>
+           Cours d’Astrologie traditionnelle
+
           </h2>
           <p className="text-lg text-vintage-earth/80 max-w-3xl mx-auto leading-relaxed">
-            Il nostro corso ti guiderà attraverso i fondamenti dell'astrologia classica, 
-            combinando tradizione millenaria e comprensione moderna per offrirti 
-            una formazione completa e professionale.
+            L'astrologie traditionnelle est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
+
           </p>
         </div>
 
