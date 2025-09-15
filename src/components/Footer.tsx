@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Star className="text-vintage-gold" size={24} />
-              <span className="font-serif text-xl font-bold">Astrologia Celeste</span>
+              <span className="font-serif text-xl font-bold">école-académie d’astrologie à Lyon</span>
             </div>
             <p className="text-vintage-cream/80 leading-relaxed">
               Scopri il tuo potenziale attraverso l'antica saggezza delle stelle. 
@@ -21,11 +21,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-vintage-gold" />
-                <span className="text-vintage-cream/80">sofia@astrologiaceleste.it</span>
+                <span className="text-vintage-cream/80">mattiaperez@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-vintage-gold" />
-                <span className="text-vintage-cream/80">+39 333 123 4567</span>
+                <span className="text-vintage-cream/80">+393338450717</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-vintage-gold" />
@@ -35,18 +35,17 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-serif text-lg font-semibold mb-4">Orari di Lezione</h3>
+            <h3 className="font-serif text-lg font-semibold mb-4">horaires</h3>
             <div className="space-y-2 text-vintage-cream/80">
-              <div>Martedì: 19:00 - 21:00</div>
-              <div>Modalità: Online via Zoom</div>
-              <div>Supporto: Lun-Ven 9:00-18:00</div>
+              <div>chaque jeudi de 20h a 21h</div>
+              <div>déroulement du cours: en ligne via zoom où en présentiel</div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-vintage-gold/20 pt-8 text-center">
           <p className="text-vintage-cream/60">
-            © 2024 Astrologia Celeste. Tutti i diritti riservati.
+           
           </p>
         </div>
       </div>
