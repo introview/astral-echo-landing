@@ -18,7 +18,7 @@ const About = () => {
     number: "1000+",
     label: "Consulenze Realizzate"
   }];
-  return <section className="py-20 bg-vintage-cream">
+  return <section id="about" className="py-20 bg-vintage-cream">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid gap-12 items-center">
           <div>

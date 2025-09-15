@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Star, Sparkles } from "lucide-react";
 import heroImage from "@/assets/astrology-hero.jpg";
 const Hero = () => {
-  return <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
+  return <section id="home" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20" style={{
       backgroundImage: `url(${heroImage})`,
