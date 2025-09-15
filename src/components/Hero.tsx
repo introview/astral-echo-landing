@@ -27,12 +27,12 @@ const Hero = () => {
         
         
         <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-bold text-vintage-earth mb-8 leading-tight">
-          École-Académie d’Astrologie
+          École-Académie d'Astrologie
           
         </h1>
         
         <p className="text-xl md:text-2xl text-vintage-earth/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-“l’astrologie des anciens maîtres”
+"l'astrologie des anciens maîtres"
 
         </p>
         
@@ -50,8 +50,19 @@ const Hero = () => {
           >
             Découvrir
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-vintage-earth text-vintage-earth hover:bg-vintage-earth hover:text-vintage-cream">
-Contactez l’enseignant          </Button>
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="text-lg px-8 py-4 border-vintage-earth text-vintage-earth hover:bg-vintage-earth hover:text-vintage-cream"
+            onClick={() => {
+              const element = document.querySelector('#contact');
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Contactez l'enseignant
+          </Button>
         </div>
         
        
