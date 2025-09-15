@@ -103,9 +103,7 @@ Modalité de paiement
               Prenota il Tuo Posto
             </Button>
             
-            <p className="text-center text-sm text-vintage-earth/60 mt-4">
-              Garanzia soddisfatti o rimborsati entro 7 giorni
-            </p>
+           
           </Card>
         </div>
       </div>
