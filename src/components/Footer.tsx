@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-serif text-lg font-semibold mb-4">Contatti</h3>
+            <h3 className="font-serif text-lg font-semibold mb-4">Contacts</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-vintage-gold" />
@@ -25,11 +25,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-vintage-gold" />
-                <span className="text-vintage-cream/80">+393338450717</span>
+                <span className="text-vintage-cream/80">Whatsapp: +393338450717</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-vintage-gold" />
-                <span className="text-vintage-cream/80">Roma, Italia</span>
+                <span className="text-vintage-cream/80">tel.0769311287</span>
               </div>
             </div>
           </div>
