@@ -44,7 +44,7 @@ const CourseInfo = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-            Informazioni del
+          Déroulement du cours
             <span className="block text-vintage-gold">Corso</span>
           </h2>
           <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
@@ -69,7 +69,7 @@ const CourseInfo = () => {
           <Card className="p-8 bg-vintage-soft border-vintage-gold/20">
             <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6 flex items-center gap-3">
               <CheckCircle className="text-vintage-gold" size={28} />
-             Ce qui est inclus
+              Cosa è Incluso
             </h3>
             <div className="space-y-4">
               {included.map((item, index) => (
