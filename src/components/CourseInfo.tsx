@@ -69,7 +69,7 @@ const CourseInfo = () => {
           <Card className="p-8 bg-vintage-soft border-vintage-gold/20">
             <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6 flex items-center gap-3">
               <CheckCircle className="text-vintage-gold" size={28} />
-              Cosa è Incluso
+            Ce qui est inclus
             </h3>
             <div className="space-y-4">
               {included.map((item, index) => (
