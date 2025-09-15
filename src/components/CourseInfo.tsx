@@ -44,12 +44,10 @@ const CourseInfo = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-            Informazioni del
-            <span className="block text-vintage-gold">Corso</span>
+            Déroulement (du cours)
+          
           </h2>
-          <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
-            Tutto quello che devi sapere per iniziare il tuo percorso astrologico
-          </p>
+        
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -103,7 +101,9 @@ Modalité de paiement
               Prenota il Tuo Posto
             </Button>
             
-           
+            <p className="text-center text-sm text-vintage-earth/60 mt-4">
+              Garanzia soddisfatti o rimborsati entro 7 giorni
+            </p>
           </Card>
         </div>
       </div>
