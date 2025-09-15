@@ -14,7 +14,7 @@ const CourseInfo = () => {
       icon: Clock,
       label: "Durée",
       value: "12 semaines",
-      subtitle: "1 heure par cours (environ)
+      subtitle: "1 heure par cours environ
 "
     },
     {
@@ -33,10 +33,10 @@ const CourseInfo = () => {
 
   const included = [
     "Support pédagogiques créé sur mesure pour atteindre les objectifs du cours",
-    "12 classes par cycle en direct (en présentiel ou en ligne)",
+    "12 classes par cycle en direct en présentiel ou en ligne",
     "Groupe de messagerie instantané privé pour échanger",
     "Suggestions concernant la bibliographie",
-    "Certificat de fin de formation, ou attestation de formation (selon niveau)",
+    "Certificat de fin de formation, ou attestation de formation selon niveau",
     "Suivi personnalisé et suivi post-formation"
   ];
 
