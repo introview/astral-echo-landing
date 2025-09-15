@@ -69,7 +69,7 @@ const CourseInfo = () => {
           <Card className="p-8 bg-vintage-soft border-vintage-gold/20">
             <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6 flex items-center gap-3">
               <CheckCircle className="text-vintage-gold" size={28} />
-Ce qui est inclus:
+              Cosa è Incluso
             </h3>
             <div className="space-y-4">
               {included.map((item, index) => (
@@ -100,12 +100,11 @@ Modalité de paiement
             </div>
             
             <Button variant="hero" size="lg" className="w-full mt-6 text-lg">
-              Prenota il Tuo Posto
+             Réservez votre place ici
             </Button>
             
             <p className="text-center text-sm text-vintage-earth/60 mt-4">
-              Garanzia soddisfatti o rimborsati entro 7 giorni
-            </p>
+premier cours d’essai le 16 octobre offert            </p>
           </Card>
         </div>
       </div>
