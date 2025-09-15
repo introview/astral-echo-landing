@@ -6,37 +6,38 @@ const CourseInfo = () => {
   const details = [
     {
       icon: Calendar,
-      label: "Inizio Corso",
-      value: "15 Ottobre 2024",
-      subtitle: "Ogni martedì sera"
+      label: "Début du cours",
+      value: "16 Octobre ",
+      subtitle: "date provisoire"
     },
     {
       icon: Clock,
-      label: "Durata",
-      value: "12 Settimane",
-      subtitle: "2 ore per lezione"
+      label: "Durée",
+      value: "12 semaines",
+      subtitle: "1 heure par cours (environ)
+"
     },
     {
       icon: Users,
-      label: "Posti Disponibili",
-      value: "Solo 15",
+      label: "Places disponibles",
+      value: "entre 15 et 20 places",
       subtitle: "Classe ridotta"
     },
     {
       icon: Euro,
-      label: "Investimento",
-      value: "€ 480",
-      subtitle: "Materiale incluso"
+      label: "Frais de cours",
+      value: "€ 300",
+      subtitle: "ou 110 euro/mois"
     }
   ];
 
   const included = [
-    "Manuale completo di 200+ pagine",
-    "Accesso a software astrologico professionale",
-    "12 lezioni live + registrazioni",
-    "Gruppo Telegram privato per domande",
-    "Certificato di partecipazione",
-    "3 mesi di supporto post-corso"
+    "Support pédagogiques créé sur mesure pour atteindre les objectifs du cours",
+    "12 classes par cycle en direct (en présentiel ou en ligne)",
+    "Groupe de messagerie instantané privé pour échanger",
+    "Suggestions concernant la bibliographie",
+    "Certificat de fin de formation, ou attestation de formation (selon niveau)",
+    "Suivi personnalisé et suivi post-formation"
   ];
 
   return (
@@ -83,18 +84,18 @@ const CourseInfo = () => {
 
           <Card className="p-8 bg-gradient-accent border-vintage-gold/30">
             <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6">
-              Modalità di Pagamento
+Modalité de paiement
             </h3>
             <div className="space-y-6">
               <div className="border border-vintage-earth/20 rounded-lg p-4 bg-white/50">
-                <div className="font-semibold text-vintage-earth mb-2">Pagamento Unico</div>
-                <div className="text-2xl font-bold text-vintage-gold mb-1">€ 480</div>
-                <div className="text-sm text-vintage-earth/70">Sconto del 10% incluso</div>
+                <div className="font-semibold text-vintage-earth mb-2">Paiement unique</div>
+                <div className="text-2xl font-bold text-vintage-gold mb-1">€ 300</div>
+                <div className="text-sm text-vintage-earth/70">(réduction de 10% inclus) </div>
               </div>
               
               <div className="border border-vintage-earth/20 rounded-lg p-4 bg-white/50">
-                <div className="font-semibold text-vintage-earth mb-2">Pagamento Rateale</div>
-                <div className="text-2xl font-bold text-vintage-gold mb-1">3 x € 180</div>
+                <div className="font-semibold text-vintage-earth mb-2">Paiement mensuel</div>
+                <div className="text-2xl font-bold text-vintage-gold mb-1">110 euro/ mois</div>
                 <div className="text-sm text-vintage-earth/70">Rate mensili senza interessi</div>
               </div>
             </div>

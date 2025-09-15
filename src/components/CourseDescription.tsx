@@ -54,43 +54,55 @@ const CourseDescription = () => {
         <div className="bg-vintage-soft rounded-2xl p-8 md:p-12">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="font-serif text-3xl font-bold text-vintage-earth mb-6">
-              Cosa Imparerai
+              Ce que vous apprendrez
             </h3>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Lettura e interpretazione delle carte natali</p>
+                  <p className="text-vintage-earth">Connaître une astrologie intégralement fondée sur l'astronomie réelle ; le système solaire avec ses corps célestes, et les lois qui régissent son fonctionnement.
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Significato dei pianeti nelle case e nei segni</p>
+                  <p className="text-vintage-earth">Qu’est-ce l’astrologie? Quelle est son utilité pratique? 
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Aspetti planetari e loro interpretazioni</p>
+                  <p className="text-vintage-earth">Les principes fondamentaux de l’astrologie
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Transiti e previsioni astrologiche</p>
+                  <p className="text-vintage-earth">Savoir dresser son propre thème natal
+</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Storia e filosofia dell'astrologia</p>
+                  <p className="text-vintage-earth">La signification des planètes dans les signes et les douze maisons
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Tecniche di consulenza astrologica</p>
+                  <p className="text-vintage-earth">Méthodes et techniques d’interprétation
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Astrologia evolutiva e psicologica</p>
+                  <p className="text-vintage-earth">La prévisions des événements: les transits
+</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Casi pratici e esercitazioni</p>
+                  <p className="text-vintage-earth">Notions sur l’histoire et la philosophie de la science astrologique
+
+
+
+
+</p>
                 </div>
               </div>
             </div>
