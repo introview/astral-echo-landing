@@ -5,24 +5,15 @@ const About = () => {
   const achievements = [
     {
       icon: Star,
-      number: "15+",
-      label: "Anni di Esperienza"
+      number: "20+",
+      label: "Ans d’expérience"
     },
     {
-      icon: BookOpen,
-      number: "500+",
-      label: "Studenti Formati"
-    },
-    {
-      icon: Award,
+      icon: Language,
       number: "3",
-      label: "Certificazioni Internazionali"
+      label: "français, italien, anglais"
     },
-    {
-      icon: Heart,
-      number: "1000+",
-      label: "Consulenze Realizzate"
-    }
+    
   ];
 
   return (
@@ -31,36 +22,36 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-              Votre enseignant
+              Chi Sono
             </h2>
             <div className="space-y-6 text-vintage-earth/80 leading-relaxed">
               <p className="text-lg">
-                Moi je m'appelle  <strong className="text-vintage-earth">Mattia Perez</strong>, je me suis formé pendant 20 ans d’études et de pratique au sein de l’académie d'astrologie de Florence créée par Monsieur Cesare Bartalesi, ancien élève de Monsieur André Barbault.
-
+                Sono <strong className="text-vintage-earth">Sofia Celeste</strong>, astrologa professionista 
+                con oltre 15 anni di esperienza nell'arte dell'interpretazione celeste. 
+                La mia passione per l'astrologia è nata durante gli studi universitari in psicologia, 
+                quando ho scoperto le profonde connessioni tra i cicli cosmici e la psiche umana.
               </p>
               
               <p>
-                En parallèle, j'ai effectué mes études pour devenir biologiste moléculaire. Et en 2016 je suis arrivé en France pour effectuer un doctorat en neurosciences. 
-
+                Ho approfondito i miei studi presso la <em>London School of Astrology</em> e ho conseguito 
+                certificazioni internazionali che mi permettono di offrire consulenze e formazione 
+                di altissimo livello. La mia approccio combina l'astrologia classica con insights 
+                psicologici moderni.
               </p>
               
               <p>
-                 Je suis passionné de tout ce qui remonte à l'antiquité, et qui a réussi à traverser le temps et l'espace jusqu'à nos jours. Je ne partage pas l'impression assez courante que les peuples anciens étaient inférieurs à nous, ou bien à notre société.
-
-              </p>
-               <p>
-À travers ce cours, je souhaite transmettre l'essentiel de l'astrologie traditionnelle. Avant que Colbert ait interdit aux astronomes de pratiquer l'astrologie, cette noble discipline était enseignée en faculté, et dans toutes les plus importantes universités d’Europe.
-Des notions historiques seront aussi abordées, mais l’ objectif pédagogique le plus important reste le suivant : Être capable de lire et interpréter un horoscope de naissance.
-
+                Negli anni ho formato oltre 500 studenti, molti dei quali sono diventati 
+                astrologi professionisti. Credo fermamente che l'astrologia sia uno strumento 
+                di crescita personale e comprensione profonda dell'essere umano.
               </p>
             </div>
             
             <div className="mt-8 p-6 bg-vintage-soft rounded-lg">
               <blockquote className="text-vintage-earth italic text-lg">
-               "L’astrologie est bien plus importante, aujourd’hui, que ne le croient les gens ordinaires; mais aussi beaucoup moins que ne le croient les astrologues"
-
+                "L'astrologia non predice il futuro, ma rivela il potenziale nascosto 
+                dentro di noi e ci guida verso la nostra massima espressione."
               </blockquote>
-              <cite className="text-vintage-gold font-medium mt-2 block">Monsieur Gurdjieff, 1927</cite>
+              <cite className="text-vintage-gold font-medium mt-2 block">- Sofia Celeste</cite>
             </div>
           </div>
 
