@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Star, Award, BookOpen, Heart } from "lucide-react";
+import { Star, Award, BookOpen, Heart, Languages } from "lucide-react";
 
 const About = () => {
   const achievements = [
@@ -9,7 +9,7 @@ const About = () => {
       label: "Ans d’expérience"
     },
     {
-      icon: Language,
+      icon: Languages,
       number: "3",
       label: "français, italien, anglais"
     },
