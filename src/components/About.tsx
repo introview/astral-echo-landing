@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Star, Award, BookOpen, Heart, Languages } from "lucide-react";
+const Language = Languages;
 
 const About = () => {
   const achievements = [
