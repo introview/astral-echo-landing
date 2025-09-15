@@ -20,7 +20,7 @@ const CourseInfo = () => {
       icon: Users,
       label: "Places disponibles",
       value: "entre 15 et 20 places",
-      subtitle: "Classe ridotta"
+      subtitle: ""
     },
     {
       icon: Euro,
@@ -44,9 +44,12 @@ const CourseInfo = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-            Déroulement du cours
+            Informazioni del
+            <span className="block text-vintage-gold">Corso</span>
           </h2>
-          
+          <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
+            Tutto quello che devi sapere per iniziare il tuo percorso astrologico
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
