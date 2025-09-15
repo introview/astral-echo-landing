@@ -54,48 +54,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="space-y-8">
-            <Card className="p-8 bg-card border-vintage-gold/20">
-              <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6 text-center">
-                I Miei Risultati
-              </h3>
-              <div className="grid grid-cols-2 gap-6">
-                {achievements.map((achievement, index) => <div key={index} className="text-center">
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-accent rounded-full mb-3">
-                      <achievement.icon size={24} className="text-vintage-earth" />
-                    </div>
-                    <div className="font-serif text-2xl font-bold text-vintage-gold mb-1">
-                      {achievement.number}
-                    </div>
-                    
-                  </div>)}
-              </div>
-            </Card>
-
-            <Card className="p-6 bg-vintage-gold/5 border-vintage-gold/30">
-              <h4 className="font-serif text-xl font-semibold text-vintage-earth mb-4">
-                Certificazioni e Formazione
-              </h4>
-              <div className="space-y-3 text-vintage-earth/80">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Diploma in Astrologia Psicologica - London School of Astrology</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Certificazione in Astrologia Evolutiva - Steven Forrest</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Master in Astrologia Oraria - Horary Academy</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Laurea in Psicologia - Università La Sapienza</span>
-                </div>
-              </div>
-            </Card>
-          </div>
+          
         </div>
       </div>
     </section>;
