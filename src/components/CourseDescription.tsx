@@ -5,24 +5,20 @@ const CourseDescription = () => {
   const features = [
     {
       icon: Moon,
-      title: "Cicli Lunari",
-      description: "Comprendi l'influenza delle fasi lunari sulla vita quotidiana"
+      title: "Astronomie",
+      description: "Des notions de base seront abordés: l’astrologie est fondée sur l’astronomie réelle"
     },
     {
       icon: Sun,
-      title: "Carta Natale",
-      description: "Impara a interpretare e creare carte astrali personalizzate"
+      title: "Théme natal",
+      description: "Ou “Carte du ciel”; apprends à dresser, lire et à interpréter des horoscopes de naissance personnalisés"
     },
     {
       icon: Stars,
-      title: "Segni e Pianeti",
-      description: "Scopri il significato profondo di ogni segno zodiacale"
+      title: "Planètes, Signes et Maisons astrologiques",
+      description: "quelle est leur origine et leur signification? comment s’en servir"
     },
-    {
-      icon: Compass,
-      title: "Case Astrologiche",
-      description: "Naviga attraverso le 12 case e i loro significati"
-    }
+    
   ];
 
   return (
