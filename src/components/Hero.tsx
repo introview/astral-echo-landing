@@ -38,22 +38,21 @@ const Hero = () => {
         </div>
         
         <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-bold text-vintage-earth mb-8 leading-tight">
-          Scopri i Segreti
-          <span className="block text-vintage-gold">delle Stelle</span>
+          École-Académie d’Astrologie
+          
         </h1>
         
         <p className="text-xl md:text-2xl text-vintage-earth/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Impara l'arte antica dell'astrologia e scopri come leggere il linguaggio celeste 
-          che ha guidato l'umanità per millenni.
+“l’astrologie des anciens maîtres”
+
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            Inizia il Tuo Viaggio
+            Découvrir
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-vintage-earth text-vintage-earth hover:bg-vintage-earth hover:text-vintage-cream">
-            Scopri di Più
-          </Button>
+Contactez l’enseignant          </Button>
         </div>
         
         <div className="mt-16 flex items-center justify-center gap-8 text-vintage-earth/60">
