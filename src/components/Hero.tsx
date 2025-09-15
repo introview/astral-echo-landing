@@ -1,20 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Star, Sparkles } from "lucide-react";
 import heroImage from "@/assets/astrology-hero.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      />
+      <div className="absolute inset-0 opacity-20" style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }} />
       
       {/* Decorative Stars */}
       <div className="absolute top-20 left-10 text-vintage-gold opacity-60">
@@ -29,13 +24,7 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <div className="mb-6">
-          <div className="inline-flex items-center gap-2 text-vintage-gold mb-4">
-            <Star size={20} className="animate-pulse" />
-            <span className="text-sm font-medium tracking-wider uppercase">Corso di Astrologia</span>
-            <Star size={20} className="animate-pulse" />
-          </div>
-        </div>
+        
         
         <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-bold text-vintage-earth mb-8 leading-tight">
           École-Académie d’Astrologie
@@ -57,8 +46,6 @@ Contactez l’enseignant          </Button>
         
        
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
