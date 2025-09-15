@@ -19,7 +19,7 @@ const About = () => {
     label: "Consulenze Realizzate"
   }];
   return <section className="py-20 bg-vintage-cream">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
