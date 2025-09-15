@@ -25,7 +25,7 @@ const CourseDescription = () => {
     <section id="course" className="py-20 bg-vintage-cream">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
+          <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
            Cours d’Astrologie traditionnelle
 
           </h2>
@@ -53,7 +53,7 @@ const CourseDescription = () => {
 
         <div className="bg-vintage-soft rounded-2xl p-8 md:p-12">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="font-serif text-3xl font-bold text-vintage-earth mb-6">
+            <h3 className="font-parisienne text-3xl font-bold text-vintage-earth mb-6">
               Ce que vous apprendrez
             </h3>
             <div className="grid md:grid-cols-2 gap-6 text-left">

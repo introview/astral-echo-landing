@@ -22,7 +22,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid gap-12 items-center">
           <div>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
+            <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
             <div className="space-y-6 text-vintage-earth/80 leading-relaxed">
               <p className="text-lg">
                 Moi je m'appelle <strong className="text-vintage-earth">Mattia Perez</strong>, je me suis formé pendant 20 ans d’études et de pratique au sein de l’académie d'astrologie de Florence créée par Monsieur Cesare Bartalesi, ancien élève de Monsieur André Barbault.

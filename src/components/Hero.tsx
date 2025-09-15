@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         
         
-        <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-bold text-vintage-earth mb-8 leading-tight">
+        <h1 className="font-parisienne text-6xl md:text-7xl lg:text-8xl font-bold text-vintage-earth mb-8 leading-tight">
           École-Académie d'Astrologie
           
         </h1>

@@ -43,7 +43,7 @@ const CourseInfo = () => {
     <section id="info" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
+          <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
            Déroulement du cour
 
           </h2>
@@ -67,7 +67,7 @@ const CourseInfo = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           <Card className="p-8 bg-vintage-soft border-vintage-gold/20">
-            <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6 flex items-center gap-3">
+            <h3 className="font-parisienne text-2xl font-bold text-vintage-earth mb-6 flex items-center gap-3">
               <CheckCircle className="text-vintage-gold" size={28} />
             Ce qui est inclus
             </h3>
@@ -82,7 +82,7 @@ const CourseInfo = () => {
           </Card>
 
           <Card className="p-8 bg-gradient-accent border-vintage-gold/30">
-            <h3 className="font-serif text-2xl font-bold text-vintage-earth mb-6">
+            <h3 className="font-parisienne text-2xl font-bold text-vintage-earth mb-6">
 Modalité de paiement
             </h3>
             <div className="space-y-6">
