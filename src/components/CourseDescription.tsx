@@ -35,7 +35,7 @@ const CourseDescription = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {features.map((feature, index) => (
             <Card key={index} className="p-6 text-center bg-card hover:shadow-lg transition-shadow duration-300">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-accent rounded-full mb-4">
