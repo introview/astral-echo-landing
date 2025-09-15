@@ -14,8 +14,7 @@ const CourseInfo = () => {
       icon: Clock,
       label: "Durée",
       value: "12 semaines",
-      subtitle: "1 heure par cours environ
-"
+      subtitle: "1 heure par cours environ"
     },
     {
       icon: Users,
