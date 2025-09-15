@@ -44,8 +44,7 @@ Des notions historiques seront aussi abordées, mais l’ objectif pédagogique 
             
             <div className="mt-8 p-6 bg-vintage-soft rounded-lg">
               <blockquote className="text-vintage-earth italic text-lg">
-                "L'astrologia non predice il futuro, ma rivela il potenziale nascosto 
-                dentro di noi e ci guida verso la nostra massima espressione."
+                "L’astrologie est bien plus importante, aujourd’hui, que ne le croient les gens ordinaires; mais aussi beaucoup moins que ne le croient les astrologues"
               </blockquote>
               <cite className="text-vintage-gold font-medium mt-2 block">- Sofia Celeste</cite>
             </div>
