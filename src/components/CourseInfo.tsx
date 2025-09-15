@@ -99,7 +99,17 @@ Modalité de paiement
               </div>
             </div>
             
-            <Button variant="hero" size="lg" className="w-full mt-6 text-lg">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="w-full mt-6 text-lg"
+              onClick={() => {
+                const element = document.querySelector('#contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               Réservez votre place ici 
             </Button>
             
