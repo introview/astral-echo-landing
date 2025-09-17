@@ -14,19 +14,19 @@ const CourseInfo = () => {
       icon: Clock,
       label: "Durée",
       value: "12 semaines",
-      subtitle: "1 heure par cours environ"
+      subtitle: "1 heure par cours"
     },
     {
       icon: Users,
-      label: "Places disponibles",
-      value: "entre 15 et 20 places",
-      subtitle: "Classe ridotta"
+      label: "places disponibles",
+      value: "15 places",
+      subtitle: ""
     },
     {
       icon: Euro,
       label: "Frais de cours",
-      value: "€ 300",
-      subtitle: "ou 110 euro/mois"
+      value: "300 euros",
+      subtitle: "ou 110 euros /mois x 3"
     }
   ];
 
@@ -44,11 +44,12 @@ const CourseInfo = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-           Déroulement du cour
+Déroulement du cours (Ie cycle)
 
           </h2>
+          
           <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
-            Tutto quello che devi sapere per iniziare il tuo percorso astrologico
+            Les infos clés pour démarrer ton parcours 
           </p>
         </div>
 
