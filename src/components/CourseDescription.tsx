@@ -6,17 +6,17 @@ const CourseDescription = () => {
     {
       icon: Moon,
       title: "Astronomie",
-      description: "Des notions de base seront abordés: l’astrologie est fondée sur l’astronomie réelle"
+      description: "des notions de base seront abordées : l’astrologie est fondée sur l’astronomie réelle"
     },
     {
       icon: Sun,
-      title: "Théme natal",
-      description: "Ou “Carte du ciel”; apprends à dresser, lire et à interpréter des horoscopes de naissance personnalisés"
+      title: "Thème natal",
+      description: "ou “Carte du ciel” ; comment dresser, lire et à interpréter des horoscopes de naissance personnalisés"
     },
     {
       icon: Stars,
-      title: "Planètes, Signes et Maisons astrologiques",
-      description: "quelle est leur origine et leur signification? comment s’en servir"
+      title: "Planètes, Signes du zodiaque et Maisons astrologiques",
+      description: "quelle est leur origine et leur signification ? comment s’en servir ?"
     },
     
   ];
