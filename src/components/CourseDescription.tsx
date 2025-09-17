@@ -66,7 +66,7 @@ const CourseDescription = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Qu’est-ce l’astrologie? Quelle est son utilité pratique? 
+                  <p className="text-vintage-earth">Qu’est-ce l’astrologie ? Quelle est son utilité pratique ? 
 </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -93,7 +93,8 @@ const CourseDescription = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">La prévisions des événements: les transits
+                  <p className="text-vintage-earth">La prévision des événements : les transits
+
 </p>
                 </div>
                 <div className="flex items-start gap-3">
