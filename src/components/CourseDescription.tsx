@@ -33,7 +33,6 @@ const CourseDescription = () => {
  Est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
 <
           </p>
-            <p> Sujets principaux </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
