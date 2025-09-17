@@ -32,7 +32,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-vintage-earth/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-"l'astrologie des anciens maîtres"
+L’astrologie des anciens maîtres
 
         </p>
         
@@ -48,7 +48,7 @@ const Hero = () => {
               }
             }}
           >
-            Découvrir
+            Je découvre 
           </Button>
           <Button 
             variant="outline" 
@@ -61,7 +61,7 @@ const Hero = () => {
               }
             }}
           >
-            Contactez l'enseignant
+           Contacter l’enseignant
           </Button>
         </div>
         
