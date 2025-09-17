@@ -26,12 +26,13 @@ const CourseDescription = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-           Cours d’Astrologie traditionnelle
+ L’astrologie traditionnelle
 
           </h2>
           <p className="text-lg text-vintage-earth/80 max-w-3xl mx-auto leading-relaxed">
-            L'astrologie traditionnelle est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
-
+ Est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
+<br> Sujets principaux 
+</br>
           </p>
         </div>
 
