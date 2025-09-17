@@ -31,10 +31,10 @@ const CourseInfo = () => {
   ];
 
   const included = [
-    "Support pédagogiques créé sur mesure pour atteindre les objectifs du cours",
-    "12 classes par cycle en direct en présentiel ou en ligne",
-    "Groupe de messagerie instantané privé pour échanger",
-    "Suggestions concernant la bibliographie",
+    "supports pédagogiques créés sur mesure pour atteindre les objectifs du cours",
+    "12 classes de la durée d’une heure, en direct ",
+    "groupe de messagerie instantanée privé pour échanger",
+    "conseils pour une bibliographie essentielle",
     "Certificat de fin de formation, ou attestation de formation selon niveau",
     "Suivi personnalisé et suivi post-formation"
   ];
