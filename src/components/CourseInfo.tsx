@@ -115,7 +115,7 @@ Modalité de paiement
             </Button>
             
             <p className="text-center text-sm text-vintage-earth/60 mt-4">
-              premier cours d’essai le 16 octobre offert
+Réservez votre place ici (premier cours d’essai le 16 octobre offert) 
             </p>
           </Card>
         </div>
