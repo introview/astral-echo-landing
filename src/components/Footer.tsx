@@ -8,11 +8,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Star className="text-vintage-gold" size={24} />
-              <span className="font-serif text-xl font-bold">école-académie d’astrologie à Lyon</span>
+              <span className="font-serif text-xl font-bold"> école-académie d’astrologie à Lyon / Contacts </span>
             </div>
             <p className="text-vintage-cream/80 leading-relaxed">
-              Scopri il tuo potenziale attraverso l'antica saggezza delle stelle. 
-              Un viaggio di crescita personale e consapevolezza.
+             
             </p>
           </div>
           
