@@ -10,8 +10,7 @@ const Contacts = () => {
             Contatti
           </h2>
           <p className="text-vintage-earth/80 text-lg max-w-2xl mx-auto">
-            Hai domande sui nostri corsi di astrologia? Contattaci attraverso uno di questi canali.
-          </p>
+Des questions ? Contactez-moi à traver l’un de ces canaux :          </p>
         </div>
         
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
@@ -21,11 +20,12 @@ const Contacts = () => {
             className="flex items-center gap-3 px-8 py-4 text-lg"
             asChild
           >
-            <a href="mailto:mattiaperez@gmail.com">
-              <Mail size={24} />
-              Scrivimi un'email
+            <a href="tel:0769311287">
+              <Phone size={24} />
+              Appelle-moi
             </a>
           </Button>
+          
           
           <Button
             variant="vintage"
@@ -35,21 +35,21 @@ const Contacts = () => {
           >
             <a href="https://wa.me/393338450717">
               <MessageCircle size={24} />
-              Scrivimi su WhatsApp
+              écris-moi sur Whatsapp,
             </a>
           </Button>
-          
           <Button
             variant="vintage"
             size="lg"
             className="flex items-center gap-3 px-8 py-4 text-lg"
             asChild
           >
-            <a href="tel:0769311287">
-              <Phone size={24} />
-              Telefonami
+            <a href="mailto:mattiaperez@gmail.com">
+              <Mail size={24} />
+              contacte-moi par e-mail
             </a>
           </Button>
+         
         </div>
       </div>
     </section>
