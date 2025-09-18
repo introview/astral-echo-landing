@@ -7,7 +7,7 @@ const Contacts = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="font-parisienne text-4xl font-bold text-vintage-earth mb-4">
-            Contatti
+            Contacts
           </h2>
           <p className="text-vintage-earth/80 text-lg max-w-2xl mx-auto">
 Des questions ? Contactez-moi à traver l’un de ces canaux :          </p>
