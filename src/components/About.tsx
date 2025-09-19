@@ -32,6 +32,7 @@ const About = () => {
               <p>
 En parallèle, j'ai effectué mes études pour devenir biologiste moléculaire. En 2016, je m’installe en France pour effectuer un doctorat en neurosciences. 
  Je suis passionné par tout ce qui remonte à l'antiquité, et qui a réussi à traverser le temps et l'espace jusqu'à nos jours. Je ne partage pas l'impression assez courante selon laquelle les peuples anciens étaient inférieurs à nous, ou bien à notre société.
+L'âme poétique d'une époque lointaine, très reculée, rencontre dans l'astrologie l'esprit scientifique de l'homme contemporain. La sagesse de l'Orient se confronte au progrès technique occidental. Et cet équilibre, très harmonieux, a toujours été la condition préalable à toute nouvelle création.
 
 
               </p>
