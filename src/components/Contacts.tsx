@@ -10,7 +10,7 @@ const Contacts = () => {
             Contacts
           </h2>
           <p className="text-vintage-earth/80 text-lg max-w-2xl mx-auto">
-Des questions ? Contactez-moi à traver l’un de ces canaux :          </p>
+Des questions ? Contactez-moi à travers l’un de ces canaux :          </p>
         </div>
         
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
