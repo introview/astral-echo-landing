@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Star, Sparkles } from "lucide-react";
-import heroImage from "@/assets/astrology-hero.jpg";
+import vitruvianHero from "@/assets/vitruvian-hero.png";
 const Hero = () => {
   return <section id="home" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-20" style={{
-      backgroundImage: `url(${heroImage})`,
+      <div className="absolute inset-0 opacity-30" style={{
+      backgroundImage: `url(${vitruvianHero})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
     }} />
+      
+      {/* Enhanced overlay for better text readability */}
+      <div className="absolute inset-0 bg-vintage-cream/60" />
       
       {/* Decorative Stars */}
       <div className="absolute top-20 left-10 text-vintage-gold opacity-60">
