@@ -11,7 +11,7 @@ const CourseDescription = () => {
     {
       icon: Sun,
       title: "Thème natal",
-      description: "ou “Carte du ciel” ; comment dresser, lire et à interpréter des horoscopes de naissance personnalisés"
+      description: "ou “Carte du ciel” ; comment dresser, lire et interpréter des horoscopes de naissance personnalisés"
     },
     {
       icon: Stars,
@@ -29,10 +29,11 @@ const CourseDescription = () => {
  L’astrologie traditionnelle
 
           </h2>
-          <p className="text-lg text-vintage-earth max-w-3xl mx-auto leading-relaxed">
-            Est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
+          <p className="text-lg text-vintage-earth/80 max-w-3xl mx-auto leading-relaxed">
+ Est l'ensemble des connaissances qui ont été transmises par les anciens maîtres, à partir de la civilisation mésopotamienne au Ve millénaire avant notre ère, notamment par transmission orale.
+
           </p>
-          <p className="text-lg text-vintage-earth mt-4">Sujets principaux :</p>
+          <p> Sujets principaux :</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -44,7 +45,7 @@ const CourseDescription = () => {
               <h3 className="font-serif text-xl font-semibold text-vintage-earth mb-3">
                 {feature.title}
               </h3>
-              <p className="text-vintage-earth leading-relaxed">
+              <p className="text-vintage-earth/70 leading-relaxed">
                 {feature.description}
               </p>
             </Card>
