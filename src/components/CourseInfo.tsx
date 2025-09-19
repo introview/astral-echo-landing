@@ -101,7 +101,7 @@ Modalité de paiement
             </div>
             
             <Button 
-              variant="hero" 
+              variant="outline" 
               size="lg" 
               className="w-full mt-6 text-lg"
               onClick={() => {
