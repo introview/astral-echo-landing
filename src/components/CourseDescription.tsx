@@ -11,7 +11,7 @@ const CourseDescription = () => {
     {
       icon: Sun,
       title: "Thème natal",
-      description: "ou “Carte du ciel” ; comment dresser, lire et interpréter des horoscopes de naissance personnalisés"
+      description: "ou “Carte du ciel” ; comment dresser, lire et à interpréter des horoscopes de naissance personnalisés"
     },
     {
       icon: Stars,
@@ -66,7 +66,7 @@ const CourseDescription = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-vintage-gold rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-vintage-earth">Qu’est-ce l’astrologie ? Quelle est son utilité pratique ? 
+                  <p className="text-vintage-earth">Qu’est-ce que l’astrologie ? Quelle est son utilité pratique ? 
 </p>
                 </div>
                 <div className="flex items-start gap-3">
