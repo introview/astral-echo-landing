@@ -29,10 +29,10 @@ All colors MUST be HSL.
     --accent: 42 85% 65%;
     --accent-foreground: 25 15% 15%;
 
-    /* Custom vintage palette */
+    /* Custom vintage palette - enhanced for accessibility */
     --vintage-cream: 35 35% 92%;
-    --vintage-gold: 42 85% 65%;
-    --vintage-earth: 25 25% 35%;
+    --vintage-gold: 42 85% 55%; /* Darkened for better contrast */
+    --vintage-earth: 25 25% 25%; /* Darkened for better contrast */
     --vintage-night: 225 25% 25%;
     --vintage-soft: 32 20% 88%;
 

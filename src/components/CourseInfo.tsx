@@ -29,8 +29,8 @@ const CourseInfo = () => {
         <div className="text-center mb-16">
           <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Déroulement du cours (1e cycle)</h2>
           
-          <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
-            Les infos clés pour démarrer ton parcours 
+          <p className="text-lg text-vintage-earth max-w-2xl mx-auto">
+            Les infos clés pour démarrer votre parcours 
           </p>
         </div>
 
@@ -39,9 +39,9 @@ const CourseInfo = () => {
               <div className="inline-flex items-center justify-center w-14 h-14 bg-vintage-gold/10 rounded-full mb-4">
                 <detail.icon size={28} className="text-vintage-gold" />
               </div>
-              <div className="text-sm text-vintage-earth/60 mb-1">{detail.label}</div>
+              <div className="text-sm text-vintage-earth mb-1 font-medium">{detail.label}</div>
               <div className="font-serif text-2xl font-bold text-vintage-earth mb-1">{detail.value}</div>
-              <div className="text-sm text-vintage-earth/70">{detail.subtitle}</div>
+              <div className="text-sm text-vintage-earth">{detail.subtitle}</div>
             </Card>)}
         </div>
 
@@ -77,14 +77,20 @@ Modalité de paiement
               </div>
             </div>
             
-            <Button variant="outline" size="lg" className="w-full mt-6 text-lg" onClick={() => {
-            const element = document.querySelector('#contact');
-            if (element) {
-              element.scrollIntoView({
-                behavior: 'smooth'
-              });
-            }
-          }}>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="w-full mt-6 text-lg" 
+              onClick={() => {
+                const element = document.querySelector('#contact');
+                if (element) {
+                  element.scrollIntoView({
+                    behavior: 'smooth'
+                  });
+                }
+              }}
+              aria-label="Réserver une place pour les cours d'astrologie"
+            >
               Réservez votre place ici 
             </Button>
             
