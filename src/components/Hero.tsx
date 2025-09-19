@@ -39,6 +39,8 @@ const Hero = () => {
         <p className="text-xl md:text-2xl text-vintage-earth mb-12 max-w-2xl mx-auto leading-relaxed">
           L'astrologie des anciens maîtres
         </p>
+         <p className="text-xl md:text-2xl text-vintage-earth mb-12 max-w-2xl mx-auto leading-relaxed">
+Cours en ligne, en direct !        </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button 
