@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-vintage-gold" />
-                <span className="text-vintage-cream/80">Whatsapp: +393338450717</span>
+                <span className="text-vintage-cream/80">Whatsapp: +393338450714</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-vintage-gold" />
