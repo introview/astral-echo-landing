@@ -11,7 +11,7 @@ const TargetAudience = () => {
     {
       icon: Users,
       title: "Initiés et confirmés",
-      description: "aux initiés et confirmés qui souhaitent se perfectionner; dans ce cas l'objectif est de remettre en cause sa propre approche, et corriger des erreurs méthodiques qui peuvent parfois conduire à des conclusions trompeuses."
+      description: "aux initiés et confirmés qui souhaitent se perfectionner; dans ce cas l'objectif est de remettre en cause sa propre approche, et corriger des erreurs méthodologiques qui peuvent parfois conduire à des conclusions trompeuses."
     }
   ];
 
