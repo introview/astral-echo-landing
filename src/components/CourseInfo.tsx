@@ -1,52 +1,33 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, Euro, Users, CheckCircle } from "lucide-react";
-
 const CourseInfo = () => {
-  const details = [
-    {
-      icon: Calendar,
-      label: "Début du cours",
-      value: "16 Octobre ",
-      subtitle: "date provisoire"
-    },
-    {
-      icon: Clock,
-      label: "Durée",
-      value: "12 semaines",
-      subtitle: "1 heure par cours"
-    },
-    {
-      icon: Users,
-      label: "places disponibles",
-      value: "15 places",
-      subtitle: ""
-    },
-    {
-      icon: Euro,
-      label: "Frais de cours",
-      value: "300 euros",
-      subtitle: "ou 110 euros /mois x 3"
-    }
-  ];
-
-  const included = [
-    "supports pédagogiques créés sur mesure pour atteindre les objectifs du cours",
-    "12 classes de la durée d’une heure, en direct ",
-    "groupe de messagerie instantanée privé pour échanger",
-    "conseils pour une bibliographie essentielle",
-    "Certificat de fin de formation, ou attestation de formation selon niveau",
-    "Suivi personnalisé et suivi post-formation"
-  ];
-
-  return (
-    <section id="info" className="py-20 bg-background">
+  const details = [{
+    icon: Calendar,
+    label: "Début du cours",
+    value: "16 Octobre ",
+    subtitle: "date provisoire"
+  }, {
+    icon: Clock,
+    label: "Durée",
+    value: "12 semaines",
+    subtitle: "1 heure par cours"
+  }, {
+    icon: Users,
+    label: "places disponibles",
+    value: "15 places",
+    subtitle: ""
+  }, {
+    icon: Euro,
+    label: "Frais de cours",
+    value: "300 euros",
+    subtitle: "ou 110 euros /mois x 3"
+  }];
+  const included = ["supports pédagogiques créés sur mesure pour atteindre les objectifs du cours", "12 classes de la durée d’une heure, en direct ", "groupe de messagerie instantanée privé pour échanger", "conseils pour une bibliographie essentielle", "Certificat de fin de formation, ou attestation de formation selon niveau", "Suivi personnalisé et suivi post-formation"];
+  return <section id="info" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">
-Déroulement du cours (Ie cycle)
-
-          </h2>
+          <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Déroulement du cours (1e cycle)</h2>
           
           <p className="text-lg text-vintage-earth/80 max-w-2xl mx-auto">
             Les infos clés pour démarrer ton parcours 
@@ -54,16 +35,14 @@ Déroulement du cours (Ie cycle)
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {details.map((detail, index) => (
-            <Card key={index} className="p-6 text-center bg-card hover:shadow-lg transition-all duration-300 border-vintage-soft">
+          {details.map((detail, index) => <Card key={index} className="p-6 text-center bg-card hover:shadow-lg transition-all duration-300 border-vintage-soft">
               <div className="inline-flex items-center justify-center w-14 h-14 bg-vintage-gold/10 rounded-full mb-4">
                 <detail.icon size={28} className="text-vintage-gold" />
               </div>
               <div className="text-sm text-vintage-earth/60 mb-1">{detail.label}</div>
               <div className="font-serif text-2xl font-bold text-vintage-earth mb-1">{detail.value}</div>
               <div className="text-sm text-vintage-earth/70">{detail.subtitle}</div>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -73,12 +52,10 @@ Déroulement du cours (Ie cycle)
             Ce qui est inclus
             </h3>
             <div className="space-y-4">
-              {included.map((item, index) => (
-                <div key={index} className="flex items-start gap-3">
+              {included.map((item, index) => <div key={index} className="flex items-start gap-3">
                   <CheckCircle size={20} className="text-vintage-gold mt-0.5 flex-shrink-0" />
                   <p className="text-vintage-earth">{item}</p>
-                </div>
-              ))}
+                </div>)}
             </div>
           </Card>
 
@@ -100,17 +77,14 @@ Modalité de paiement
               </div>
             </div>
             
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="w-full mt-6 text-lg"
-              onClick={() => {
-                const element = document.querySelector('#contact');
-                if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
+            <Button variant="outline" size="lg" className="w-full mt-6 text-lg" onClick={() => {
+            const element = document.querySelector('#contact');
+            if (element) {
+              element.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          }}>
               Réservez votre place ici 
             </Button>
             
@@ -120,8 +94,6 @@ Réservez votre place ici (premier cours d’essai le 16 octobre offert)
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CourseInfo;
