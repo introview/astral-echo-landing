@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Star, Award, BookOpen, Heart } from "lucide-react";
-import mattiaImage from "@/assets/mattia-perez.jpeg";
 const About = () => {
   const achievements = [{
     icon: Star,
@@ -21,8 +20,8 @@ const About = () => {
   }];
   return <section id="about" className="py-20 bg-vintage-cream">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="order-2 lg:order-1">
+        <div className="grid gap-12 items-center">
+          <div>
             <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
             <div className="space-y-6 text-vintage-earth/80 leading-relaxed">
               <p>
@@ -32,7 +31,7 @@ const About = () => {
               
               <p>
 En parallèle, j'ai effectué mes études pour devenir biologiste moléculaire. En 2016, je m’installe en France pour effectuer un doctorat en neurosciences. 
- Je suis passionné de tout ce qui remonte à l'antiquité, et qui a réussi à traverser le temps et l'espace jusqu'à nos jours. Je ne partage pas l'impression assez courante selon laquelle les peuples anciens étaient inférieurs à nous, ou bien à notre société.
+ Je suis passionné par tout ce qui remonte à l'antiquité, et qui a réussi à traverser le temps et l'espace jusqu'à nos jours. Je ne partage pas l'impression assez courante selon laquelle les peuples anciens étaient inférieurs à nous, ou bien à notre société.
 
 
               </p>
@@ -52,13 +51,6 @@ Des notions historiques seront aussi abordées, mais l’ objectif pédagogique 
             </div>
           </div>
 
-          <div className="order-1 lg:order-2 flex justify-center">
-            <img 
-              src={mattiaImage} 
-              alt="Mattia Perez, enseignant d'astrologie"
-              className="w-80 h-80 object-cover rounded-2xl shadow-lg"
-            />
-          </div>
           
         </div>
       </div>
