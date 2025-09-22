@@ -33,7 +33,7 @@ Des questions ? Contactez-moi à travers l’un de ces canaux :          </p>
             className="flex items-center gap-3 px-8 py-4 text-lg"
             asChild
           >
-            <a href="https://wa.me/393338450717">
+            <a href="https://wa.me/393338450714">
               <MessageCircle size={24} />
               écris-moi sur Whatsapp,
             </a>
