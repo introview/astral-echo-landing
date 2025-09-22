@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute inset-0 opacity-30" 
         style={{
           backgroundImage: `url(${vitruvianHero})`,
-          backgroundSize: 'cover',
+          backgroundSize: '85%',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
         }} 
