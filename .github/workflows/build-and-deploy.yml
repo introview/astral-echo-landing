@@ -36,7 +36,7 @@ jobs:
          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         with:
-          server: $FTP_SERVER
-          username: $FTP_USERNAME
-          password: $FTP_PASSWORD
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USERNAME }}
+          password: ${{ env.FTP_PASSWORD }}
           local-dir: "./dist/"
