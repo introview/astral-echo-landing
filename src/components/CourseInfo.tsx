@@ -66,13 +66,13 @@ const CourseInfo = () => {
             <div className="space-y-6">
               <div className="border border-vintage-earth/20 rounded-lg p-4 bg-white/50">
                 <div className="font-semibold text-vintage-earth mb-2">Paiement unique</div>
-                <div className="text-2xl font-bold text-vintage-gold mb-1">300 euros</div>
+                <div className="text-2xl font-bold text-gray-700 mb-1">300 euros</div>
                 <div className="text-sm text-vintage-earth/70">(réduction de 10% inclus) </div>
               </div>
               
               <div className="border border-vintage-earth/20 rounded-lg p-4 bg-white/50">
                 <div className="font-semibold text-vintage-earth mb-2">Paiement mensuel</div>
-                <div className="text-2xl font-bold text-vintage-gold mb-1">110 euros/ mois</div>
+                <div className="text-2xl font-bold text-gray-700 mb-1">110 euros/ mois</div>
                 <div className="text-sm text-vintage-earth/70"></div>
               </div>
             </div>
