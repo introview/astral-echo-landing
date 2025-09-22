@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Star, Award, BookOpen, Heart } from "lucide-react";
+import mattiaPerezImage from "@/assets/mattia-perez-new.jpeg";
 const About = () => {
   const achievements = [{
     icon: Star,
@@ -23,7 +24,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="lg:order-2">
             <img 
-              src="/src/assets/mattia-perez-new.jpeg" 
+              src={mattiaPerezImage} 
               alt="Mattia Perez, enseignant d'astrologie" 
               className="w-full max-w-md mx-auto rounded-2xl shadow-lg object-cover aspect-[3/4]"
             />
