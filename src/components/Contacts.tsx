@@ -35,7 +35,7 @@ Des questions ? Contactez-moi à travers l’un de ces canaux :          </p>
           >
             <a href="https://wa.me/393338450714">
               <MessageCircle size={24} />
-              écris-moi sur Whatsapp,
+              écris-moi sur Whatsapp
             </a>
           </Button>
           <Button
