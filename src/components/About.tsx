@@ -20,8 +20,16 @@ const About = () => {
   }];
   return <section id="about" className="py-20 bg-vintage-cream">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid gap-12 items-center">
-          <div>
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="lg:order-2">
+            <img 
+              src="/src/assets/mattia-perez-new.jpeg" 
+              alt="Mattia Perez, enseignant d'astrologie" 
+              className="w-full max-w-md mx-auto rounded-2xl shadow-lg object-cover aspect-[3/4]"
+            />
+          </div>
+          
+          <div className="lg:order-1">
             <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-6">Votre enseignant</h2>
             <div className="space-y-6 text-vintage-earth/80 leading-relaxed">
               <p>
