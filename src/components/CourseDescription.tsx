@@ -11,7 +11,7 @@ const CourseDescription = () => {
     {
       icon: Sun,
       title: "Thème natal",
-      description: "ou “Carte du ciel” ; comment dresser, lire et à interpréter des horoscopes de naissance personnalisés"
+      description: "ou “Carte du ciel” ; comment dresser, lire et interpréter des horoscopes de naissance personnalisés"
     },
     {
       icon: Stars,
