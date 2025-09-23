@@ -3,17 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const Contacts = () => {
   return (
-    <section id="contact" className="py-16 bg-vintage-cream">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="contact" className="py-16 bg-vintage-cream relative overflow-hidden">
+      <div className="absolute inset-0 opacity-5 bg-[url('/src/assets/astrology-hero.jpg')] bg-cover bg-center"></div>
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="font-parisienne text-4xl font-bold text-vintage-earth mb-4">
+          <h2 className="font-parisienne text-4xl md:text-5xl font-bold text-vintage-earth mb-4">
             Contacts
           </h2>
           <p className="text-vintage-earth/80 text-lg max-w-2xl mx-auto">
 Des questions ? Contactez-moi à travers l’un de ces canaux :          </p>
         </div>
         
-        <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-12">
           <Button
             variant="vintage"
             size="lg"
