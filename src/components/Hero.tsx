@@ -36,9 +36,9 @@ const Hero = () => {
           École-Académie d'Astrologie
         </h1>
         
-        <p className="text-xl md:text-2xl text-vintage-earth mb-12 max-w-2xl mx-auto leading-relaxed">
+        <h3>
           L'astrologie des anciens maîtres
-        </p>
+        </h3>
          <p className="text-xl md:text-2xl text-vintage-earth mb-12 max-w-2xl mx-auto leading-relaxed">
 Cours en ligne, en direct !        </p>
         
